@@ -1,0 +1,494 @@
+{
+  "selectedTemplate": 4,
+  "headings": {
+    "education": "",
+    "skills": "Tech Skills",
+    "projects": "Intro",
+    "awards": "Domain Skills"
+  },
+  "basics": {
+    "name": "Andrei Botez",
+    "phone": "0040 744 663 433",
+    "location": {
+      "address": "Romania"
+    },
+    "email": "andrei@straja.org",
+    "website": "https://shady.straja.org"
+  },
+  "education": [
+    {
+      "location": "Bacau, Romania",
+      "area": "Computer Science ",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "institution": "University \"Vasile Alecsandri\", Faculty of Sciences"
+    },
+    {
+      "institution": "National College \"G. R. Codreanu\"",
+      "area": "Informatics and Mathematics",
+      "location": "Barlad, Romania"
+    }
+  ],
+  "work": [
+    {
+      "company": "Cognizant",
+      "location": "remote, Romania",
+      "position": "Fullstack Web Developer",
+      "website": "",
+      "highlights": [
+        "Contractor in the life sciences sector for an industry leader, to address project deviations in a GMP/GLP-regulated computerized software system dealing with the problem of data availability",
+        "Led backend migration from Express.js to NestJS (Node.js/Azure), driving improved scalability and maintainability",
+        "Modernized the Electron client: replacing a legacy VueJS design system with a newer UI framework and moved the build system from Webpack to Vite, optimizing performance and developer productivity",
+        "Upgraded deprecated software dependencies and libraries to current versions, significantly enhancing security posture and maintainability",
+        "Migrated CI/CD pipelines and source control from Azure Pipelines and Azure Repos to GitHub Actions and GitHub Repositories,  streamlining deployment workflows",
+        "Documented Azure Cloud project resources ending with multiple decommissions, reducing monthly use cost by thousands of dollars"
+      ],
+      "startDate": "2023",
+      "endDate": "2024"
+    },
+    {
+      "highlights": [
+        "As a key member of the retail engineering team, my main work involved rewriting the main PHP monolith legacy back-office application, towards a AWS microservices architecture system",
+        "My biggest value added was transitioning from external providers, self-operated hardware or software environments, and enabling exponential improvements in team collaboration and developer experience",
+        "I developed & integrated server, client, providers software; for platforms such as PCs, mobile devices, TVs, custom hardware terminals; used by customers, internal engineering teams and other business departments",
+        "Played a key backend engineering role in launching Superbet Club, supporting a user base of up to 1 million users",
+        "Owned end-to-end feature development, with latter additions impacting the whole business, while meeting company OKRs and KPIs",
+        "Lead by example, with the use of better tooling, standards and workflows; eg integration, regression, and performance tests using Postman, monitoring with Grafana,Prometheus, Loki, CloudWatch",
+        "Drove code optimisation and refactoring—consecutive highest lines-deleted metric annually—earning successive promotions"
+      ],
+      "company": "Superbet",
+      "position": "Fullstack Web Developer",
+      "location": "remote, Romania"
+    },
+    {
+      "highlights": [
+        "Served small businesses in Romania, creating presentation and eCommerce sites with Wordpress and Woocommerce",
+        "Technical Consultant Contractor for different enterprises in the Bucharest area",
+        "Partner with an UK web agency for a number of diverse projects",
+        "Shaped architecture and full-stack features for PetWatchdog.com, an UK pet-review platform",
+        "Doubled Lighthouse & SEO scores to > 90, revamped signup flow, and 2× monthly account creation",
+        "Designed, developed the server side the DuePet.com mobile app while managing the frontend team",
+        "Added core features to MyPetMicrochip.co.uk platform",
+        "Advocated best practices in data design, system operations, inclusive/semantic UI for the whole organization",
+        "Optimized CLI and deployment: −10 hrs/week, 2× release frequency using Buddy",
+        "Managed project estimation (timelines, budgets), standardized tech stack and the delivery process",
+        "Tripled project documentation, and ensured business process management is long lasting and industry standard",
+        "Hired and onboarded contractors, mentored junior developers, managed the resources to be within projects scope"
+      ],
+      "company": "straja",
+      "position": "Founder & Technical Consultant",
+      "location": "remote"
+    },
+    {
+      "highlights": [
+        "Led the migration strategy to transition from legacy jQuery UIs to Angular 2.",
+        "R&D a MVP using single-spa for a solution to replace HTML iframes, the general way to integrate a different web client (or multiples) on the same web page",
+        "To my knowledge it was first trial enterprise implementation of microservice architecture on the frontend, merging products from different teams (eg Credit Score and HomeBank app systems) using a API integration layer with minimal required changes to existing codebases",
+        "Even though I departed the organization before any production releases, my work deliverables included dozens of technical writings, involving two product teams and multiple cross-team technical leaders",
+        "rxjs"
+      ],
+      "company": "Extia",
+      "position": "Front-end Web Developer Contractor in the banking industry",
+      "location": "Bucharest, Romania"
+    },
+    {
+      "highlights": [
+        "Joined a blockchain startup which will become the regions's most successful, eventually being acquired after my departure from the company",
+        "My main job was backend web development for a platform designed for Initial Coin Offering (ICO) token launches",
+        "My focus was in the areas of data visualization leveraging D3.js together with web3.js  for interacting with the Ethereum blockchain data",
+        "Dealt with the problem of scalability which was usual for the domain but also security by testing with Chai and Mocha against Infura",
+        "Contributed to the implementation of Gibraltar Blockchain Exchange (gbx.global), centered around testing Zeppelin-Solidity with Truffle framework"
+      ],
+      "company": "Udev Office",
+      "position": "Backend Web Developer in the blockchain industry",
+      "location": "Bucharest, Romania"
+    },
+    {
+      "highlights": [
+        "Rewrite of Client's Survey app using Angular2 and Material, as the solo frontend developer in the team",
+        "The app featured new APIs integration, in-app crash analytics — with zero functionality issues in month post-release, and achieving testable 2× to 10× performance gains",
+        "The main challenge of the project was starting to use Angular 2 framework beta version, and managing the fast initial release, changes and bugs",
+        "Open source contributor involved with the testing, feedback or fixing of the official release of the much anticipated Google framework, using the experience gained in the next period of my career"
+      ],
+      "company": "Luxoft",
+      "position": "Frontend Developer Contractor in the Telecom Industry",
+      "location": "Bucharest, Romania"
+    },
+    {
+      "highlights": [
+        "The company's main business activity was staff augmentation outsourcing, but I was part of a newly internal team, which in time I ended up managing",
+        "Spearheaded the company's new business activity, a web agency studio, with a focus on Wordpress websites for small and local businesses",
+        "Managed the software development life cycle: from client engagement, business analysis, solutions proposals, technical implementation, testing, to product launch and maintenance",
+        "Acted in multiple roles, either an instructor or student, project manager, team leader, sysadmin, developer, and webmaster",
+        "Established the organization’s standards on software delivery business processes management",
+        "Mentored junior developers and onboarded new team members",
+        "I led the development of app with focus on prototyping, team building, learning AngularJS and Node.js: a timesheet tool for the management of my outsourced contractor colleagues",
+        "Participated in regular trainings at IBM, the company's main business partner, getting myself familiar with enterprise hardware and software solutions including workflows like DevOps"
+      ],
+      "company": "Cloud Business Services",
+      "position": "Web Developer",
+      "location": "Bucharest, Romania"
+    },
+    {
+      "highlights": [
+        "After finishing the company's internship training program, I was assigned to the ISP Database project (https://www.ispdatabase.com/)",
+        "Helped with the migration of a student management platform, initially built using Microsoft Access, with the goal of building a LAMP stack web application",
+        "Designed and implemented Postgres schemas to test fit the new data storage system requirements based on the multiple of Microsoft Access supported client databases like SQL Server, MySQL, Oracle",
+        "Own the migration process of the old data into the new storage server system, using Razor ETL tool for the seamless integrity-preserving data transfer process",
+        "Developed the data access methods in Symfony 2, the model of the MVC pattern",
+        "The eventual familiarity with the legacy Microsoft Access system allowed me to be also support engineer and point of contact for the clients, fixing or improving the Visual Basic for Applications (VBA) codebase",
+        "While the experience made me strongly consider a career change, overcoming the challenges laid a strong foundation in software migration, the expertise that would be prevalent in my career"
+      ],
+      "company": "RoundAssist",
+      "position": "Junior Software Developer",
+      "location": "Barlad, Romania",
+      "website": "https://www.ispdatabase.com/"
+    },
+    {
+      "highlights": [
+        "Managed and enhanced a custom auto-parts eCommerce platform",
+        "Synchronized parts database with Autonet Prices API for real-time pricing",
+        "Developed automations for notifications, invoicing, and email templates",
+        "Optimized search and product-page performance via improved database operations",
+        "Handled webmaster duties to ensure site maintenance and reliability"
+      ],
+      "company": "AccordGrup",
+      "position": "Entry-level Web Developer",
+      "location": "Barlad, Romania"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "Debian",
+        "Qubes",
+        "Coreboot",
+        "Graphene",
+        "Mirage",
+        "Heads",
+        "NixOS",
+        "OpenWRT"
+      ],
+      "name": "Operating Systems"
+    },
+    {
+      "keywords": [
+        "Docker (Podman, etc)",
+        "XEN",
+        "bubblewrap",
+        "nix"
+      ],
+      "name": "Virtualization & Containerization"
+    },
+    {
+      "keywords": [
+        "PHP",
+        "javascript (nodejs & typescript)",
+        "SQL",
+        "bash",
+        "nix"
+      ],
+      "name": "Programming languages"
+    },
+    {
+      "keywords": [
+        "express.js",
+        "nestjs",
+        "angular",
+        "vue.js",
+        "electron",
+        "rxjs",
+        "D3.js",
+        "web3.js",
+        "astro"
+      ],
+      "name": "Javascript Frameworks"
+    },
+    {
+      "keywords": [
+        "CodeIgniter",
+        "Symfony",
+        "Wordpress",
+        "Bootstrap",
+        "Tailwind"
+      ],
+      "name": "Other Web Frameworks"
+    },
+    {
+      "keywords": [
+        "MySQL",
+        "Postgres",
+        "MongoDB",
+        "Redis",
+        "Vertica",
+        "NEO4J"
+      ],
+      "name": "Databases"
+    },
+    {
+      "keywords": [
+        "SaltStack",
+        "Make",
+        "Nix",
+        "Puppeteer",
+        "Webpack",
+        "Vite"
+      ],
+      "name": "Automation & Build"
+    },
+    {
+      "keywords": [
+        "Mocha",
+        "Chai",
+        "Postman",
+        "Jest",
+        "Playwright"
+      ],
+      "name": "Testing"
+    },
+    {
+      "keywords": [
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "Sentry",
+        "CloudWatch"
+      ],
+      "name": "Monitoring & Logging"
+    },
+    {
+      "name": "Architectures",
+      "keywords": [
+        {
+          "name": "Application Patterns",
+          "keywords": [
+            "Monoliths",
+            "Microservices",
+            "Serverless",
+            "Service-Oriented Architecture (SOA)",
+            "Micro-Frontends",
+            "JAMstack",
+            "Client-Server"
+          ]
+        },
+        {
+          "name": "Design Patterns",
+          "keywords": [
+            "Domain-Driven Design (DDD)",
+            "Command Query Responsibility Segregation (CQRS)",
+            "Event Sourcing",
+            "Saga Pattern",
+            "Circuit Breaker",
+            "Bulkhead Pattern",
+            "Strangler Fig Pattern",
+            "Backend for Frontend (BFF)",
+            "Anti-Corruption Layer (ACL)",
+            "Model-View-Controller (MVC)",
+            "Model-View-ViewModel (MVVM)"
+          ]
+        },
+        {
+          "name": "Communication Patterns",
+          "keywords": [
+            "REST",
+            "GraphQL",
+            "gRPC",
+            "WebSockets",
+            "Webhooks",
+            "Server-Sent Events (SSE)",
+            "Long Polling",
+            "WebRTC",
+            "SOAP",
+            "MQTT",
+            "AMQP",
+            "HTTP/2",
+            "HTTP/3 (QUIC)"
+          ]
+        },
+        {
+          "name": "Integration Patterns",
+          "keywords": [
+            "Event-Driven Architecture (EDA)",
+            "Reactive",
+            "Publish/Subscribe",
+            "Message Queues (MQ)",
+            "Event Buses",
+            "Enterprise Service Bus (ESB)",
+            "Stream Processing",
+            "Batch Processing",
+            "Extract-Transform-Load (ETL)",
+            "Change Data Capture (CDC)",
+            "Orchestration",
+            "Choreography"
+          ]
+        },
+        {
+          "name": "Infrastructure Patterns",
+          "keywords": [
+            "API Gateway",
+            "Service Mesh",
+            "Sidecar Pattern",
+            "Ambassador Pattern",
+            "Load Balancer",
+            "Reverse Proxy",
+            "Content Delivery Network (CDN)",
+            "Edge Computing",
+            "Multi-Region",
+            "Multi-Cloud",
+            "Hybrid Cloud"
+          ]
+        },
+        {
+          "name": "Data Architecture",
+          "keywords": [
+            "Data Lakes",
+            "Data Warehouses",
+            "Data Pipelines",
+            "Data Mesh",
+            "Data Fabric",
+            "Lambda Architecture",
+            "Kappa Architecture",
+            "Polyglot Persistence",
+            "OLTP vs OLAP",
+            "Master Data Management (MDM)",
+            "Data Mart"
+          ]
+        },
+        {
+          "name": "Reliability Patterns",
+          "keywords": [
+            "High Availability (HA)",
+            "Disaster Recovery (DR)",
+            "Backup & Restore",
+            "Blue-Green Deployment",
+            "Canary Deployment",
+            "Rolling Updates",
+            "Feature Toggles",
+            "Chaos Engineering",
+            "Zero-Trust Architecture"
+          ]
+        },
+        {
+          "name": "Scalability Patterns",
+          "keywords": [
+            "Horizontal Scaling",
+            "Vertical Scaling",
+            "Database Sharding",
+            "Caching Strategies",
+            "Read Replicas",
+            "Write-Ahead Logging",
+            "Command-Query Separation",
+            "Eventually Consistent",
+            "Strong Consistency"
+          ]
+        },
+        {
+          "name": "Cloud-Native Patterns",
+          "keywords": [
+            "Twelve-Factor App",
+            "Cloud-Native",
+            "Infrastructure as Code (IaC)",
+            "GitOps",
+            "DevOps",
+            "Platform as a Service (PaaS)",
+            "Function as a Service (FaaS)",
+            "Containers as a Service (CaaS)",
+            "Kubernetes Patterns"
+          ]
+        }
+      ]
+    },
+    {
+      "keywords": [
+        "Heroku",
+        "Digital Ocean",
+        "AWS (EC2, etc)",
+        "Azure (AD, etc) ",
+        "Github (Actions, Codespaces, etc)"
+      ],
+      "name": "Cloud Providers"
+    },
+    {
+      "keywords": [
+        "Jira, Zoom, Notion, Slack, Teams"
+      ],
+      "name": "Collaboration & Productivity"
+    },
+    {
+      "keywords": [
+        "Jetbrains (WebStorm, Junie, Datagrip, etc)",
+        "Warp",
+        "Cursor",
+        "Cloud9",
+        "DarkLang",
+        "Collab",
+        "Jupyter Notebook"
+      ],
+      "name": "Development Tools"
+    },
+    {
+      "keywords": [
+        "Agile",
+        "LEAN",
+        "Scrum",
+        "Kanban",
+        "Extreme Programming (XP)"
+      ],
+      "name": "Methodologies"
+    },
+    {
+      "keywords": [
+        "English (C2)",
+        "Spanish (C1)"
+      ],
+      "name": "Languages"
+    }
+  ],
+  "projects": [
+    {
+      "description": "Jack of all trades, I am an One-Man-Army"
+    },
+    {
+      "description": "Backed by a decade of cross-functional professional experience in technical consulting and software engineering"
+    },
+    {
+      "description": "Skilled in web client and server development, software migration, integration, automation and leading by example"
+    },
+    {
+      "description": "I want to make things that make a difference"
+    }
+  ],
+  "awards": [
+    {
+      "awarder": "fullstack web development"
+    },
+    {
+      "awarder": "legacy software migration"
+    },
+    {
+      "awarder": "systems solution technical design and writing"
+    },
+    {
+      "awarder": "API development and integration"
+    },
+    {
+      "awarder": "automation scripting "
+    },
+    {
+      "awarder": "Dev Sec Ops"
+    },
+    {
+      "awarder": "project and team management"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "projects",
+    "awards",
+    "skills",
+    "education",
+    "work"
+  ]
+}
