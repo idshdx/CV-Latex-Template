@@ -103,11 +103,11 @@
 \newcommand{\prefixmarker}[1]{\def\@prefixmarker{#1}}
 \def\@prefixmarker{\relscale{.9}\faBookmark}
 
-\prefix{%
-  \hspace*{-1ex}
-  \color{MarkerColour!80!black}\@prefixmarker%
-  \hspace*{1ex}%
-}
+% Disable prefix icon on entry headings
+\prefix{}
+
+% Use bookmark icon as the itemize bullet
+\renewcommand{\labelitemi}{\textcolor{MarkerColour!80!black}{\relscale{.9}\faBookmark}}
 
 \newcommand{\makerubrichead}[1]{\vskip\baselineskip\@@rubrichead{#1}}
 
