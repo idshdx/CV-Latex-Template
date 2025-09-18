@@ -1,38 +1,36 @@
 comment.cut
 
-cv-llt.aux
+cv-main.aux
 
-cv-llt.bbl
+cv-main.bbl
 
-cv-llt.bcf
+cv-main.bcf
 
-cv-llt.blg
+cv-main.blg
 
-cv-llt.fdb_latexmk
+cv-main.fdb_latexmk
 
-cv-llt.fls
+cv-main.fls
 
-cv-llt.log
+cv-main.log
 
-cv-llt.out
+cv-main.out
 
-cv-llt.pdf
+cv-main.run.xml
+cv-main.xdv
 
-cv-llt.run.xml
-cv-llt.xdv
+cv-main-flat.aux
 
-cv-llt-flat.aux
+cv-main-flat.bcf
 
-cv-llt-flat.bcf
+cv-main-flat.log
 
-cv-llt-flat.log
+cv-main-flat.out
 
-cv-llt-flat.out
+cv-main-flat.pdf
 
-cv-llt-flat.pdf
+cv-main-flat.run.xml
 
-cv-llt-flat.run.xml
-
-cv-llt-flat.synctex.gz
+cv-main-flat.synctex.gz
 
 .idea
