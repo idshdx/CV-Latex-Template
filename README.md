@@ -52,7 +52,9 @@ xelatex cv-main.tex
 
 ## Preview
 
-[Download/View PDF](cv-main.pdf)
+[Download/View Generic PDF (main branch)](cv-main.pdf)
+
+[Download/View Personal CV generated PDF (personal branch)](https://github.com/idshdx/latex-cv/blob/personal/cv-main.pdf)
 
 ![CV Preview](example.jpeg)
 
