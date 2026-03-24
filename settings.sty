@@ -35,6 +35,9 @@
 \usetikzlibrary{shapes,shadows}
 
 \RequirePackage{comment}
+\newenvironment{description}{}{}
+\RequirePackage{enumitem}
+\setlist[itemize]{leftmargin=0.5em, labelsep=0.3em, align=left}
 \definecolor{SwishLineColour}{HTML}{88AC0B}
 \definecolor{MarkerColour}{HTML}{B6073F}
 
@@ -97,13 +100,13 @@
 \urlstyle{tt}
 
 \newcommand{\prefixmarker}[1]{\def\@prefixmarker{#1}}
-\def\@prefixmarker{\relscale{.9}\faBookmark}
+\def\@prefixmarker{\raisebox{-0.3ex}{\relscale{.9}\faBookmark}}
 
 % Disable prefix icon on entry headings
 \prefix{}
 
 % Use bookmark icon as the itemize bullet
-\renewcommand{\labelitemi}{\textcolor{MarkerColour!80!black}{\relscale{.9}\faBookmark}}
+\renewcommand{\labelitemi}{\raisebox{-0.3ex}{\textcolor{MarkerColour!80!black}{\relscale{.9}\faBookmark}}}
 
 \newcommand{\makerubrichead}[1]{\vskip\baselineskip\@@rubrichead{#1}}
 
