@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%
-% Andrei Botez (andrei@straja.org)
+% John Doe (john.doe@example.com)
 % 18 Sept, 2025
 \documentclass[a4paper,skipsamekey,11pt,english]{curve}
 
@@ -17,14 +17,12 @@
 \DefineBibliographyStrings{english}{url={\textsc{url}}}
 
 %% Only needed if you want a Publication List
-%\addbibresource{own-bib.bib}
+\addbibresource{own-bib.bib}
 
 %% Specify your last name(s) and first name(s) (as given in the .bib) to automatically bold your own name in the publications list. 
 %% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
-% \mynames{Lim/Lian\bibnamedelima Tze}
-
-%% You can specify multiple names like this, especially if you have changed your name or if you need to highlight multiple authors. See items 6–9 in the example "Journal Articles" output.
-\mynames{Andrei\bibnamedelima Botez}
+%% You can specify multiple names like this, especially if you have changed your name or if you need to highlight multiple authors. 
+\mynames{Doe/John,Smith/Jane}
 %% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
 
 % Change the fonts if you want
@@ -60,21 +58,21 @@
 
 
 \leftheader{%
-  {\LARGE\bfseries\sffamily Andrei Botez}
+  {\LARGE\bfseries\sffamily John Doe}
   \vspace{8pt}% add a bit more breathing room between name and links
 
-  \makefield{\faEnvelope[regular]}{\href{mailto:andrei@straja.org}{\texttt{Email address}}}
+  \makefield{\faEnvelope[regular]}{\href{mailto:john.doe@example.com}{\texttt{Email address}}}
   % fontawesome5 doesn't have the X icon so we use
   % the simpleicons package here instead; but some
   % font size adjustment might be needed
-  \makefield{{\scriptsize\simpleicon{github}}}{\!\href{https://github.com/idshdx}{\texttt{Github profile}}}
+  \makefield{{\scriptsize\simpleicon{github}}}{\!\href{https://github.com/johndoe}{\texttt{Github profile}}}
   \makefield{\faLinkedin}
-  {\href{https://www.linkedin.com/in/andrewww-botez}{\texttt{LinkedIn profile}}}
+  {\href{https://www.linkedin.com/in/johndoe}{\texttt{LinkedIn profile}}}
 
   %% Next line
-  \makefield{\faGlobe}{\href{https://shady.straja.org}{\texttt{Personal Page}}}
-  \makefield{\faSuitcase}{\href{https://idshdx.github.io/portfolio-page/}{\texttt{Resume Webpage}}}
-  \makefield{\faBook}{\href{https://my.manualof.me/s/07659ba778e00016af1dd53712179203}{\texttt{Manual of Me}}}
+  \makefield{\faGlobe}{\href{https://johndoe.example.com}{\texttt{Personal Page}}}
+  \makefield{\faSuitcase}{\href{https://johndoe.github.io/portfolio/}{\texttt{Resume Webpage}}}
+  \makefield{\faBook}{\href{https://example.com/manual-of-me}{\texttt{Manual of Me}}}
   % You can use a tabular here if you want to line up the fields.
 }
 
@@ -84,21 +82,21 @@
 \photoscale{0.13}
 \end{fullonly}
 
-\title{Curriculum Vitae Andrei Botez}
+\title{Curriculum Vitae John Doe}
 
 \begin{document}
 \makeheaders[c]
 
 \makerubric{profile}
 \makerubric{education}
-%\makerubric{skills}
+% \makerubric{skills}
 \makerubric{employment}
 
 
 %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
 % \input{publications}
 
-% \makerubric{misc}
+\makerubric{misc}
 
 \makerubric{referee}
 % \input{referee-full}

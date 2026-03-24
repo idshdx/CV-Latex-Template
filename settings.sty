@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%
 % CV example/template based on my own
-% Andrei Botez (andrei@straja.org)
+% John Doe (john.doe@example.com)
 % 19 Sept, 2025
 
 \RequirePackage{silence}
@@ -38,8 +38,8 @@
 \newenvironment{description}{}{}
 \RequirePackage{enumitem}
 \setlist[itemize]{leftmargin=0.5em, labelsep=0.3em, align=left}
-\definecolor{SwishLineColour}{HTML}{88AC0B}
-\definecolor{MarkerColour}{HTML}{B6073F}
+\definecolor{SwishLineColour}{HTML}{0056b3} % Deep Blue
+\definecolor{MarkerColour}{HTML}{dc3545}    % Crimson Red
 
 % If you're not a researcher nor an academic, you probably don't need biblatex; delete this line.
 \RequirePackage{biblatex}
@@ -105,8 +105,8 @@
 % Disable prefix icon on entry headings
 \prefix{}
 
-% Use bookmark icon as the itemize bullet
-\renewcommand{\labelitemi}{\raisebox{-0.3ex}{\textcolor{MarkerColour!80!black}{\relscale{.9}\faBookmark}}}
+% Use a simpler circle icon as the itemize bullet
+\renewcommand{\labelitemi}{\raisebox{-0.1ex}{\textcolor{MarkerColour!80!black}{\relscale{.7}\faCircle}}}
 
 \newcommand{\makerubrichead}[1]{\vskip\baselineskip\@@rubrichead{#1}}
 
