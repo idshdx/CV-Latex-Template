@@ -1,44 +1,50 @@
 # LaTeX CV Template
 
-A clean, modern, and highly customizable CV template based on the `curve` LaTeX class. This template is designed to be easy to use and looks great whether compiled with pdfLaTeX, XeLaTeX, or LuaLaTeX.
+A clean, modern, and customizable CV template based on the `curve` LaTeX class.
+
+## Preview
+
+![CV Preview](example.jpeg)
+
+[Download/View Generic PDF (main branch)](cv-main.pdf)
+
+[Download/View Personal CV generated PDF (personal branch)](https://github.com/idshdx/latex-cv/blob/personal_slim/cv-main.pdf)
 
 ## Features
 
-- **Modular Design**: CV sections are split into separate `.tex` files for easy management.
-- **Publication Support**: Integrated `biblatex` support for highlighting your research and publications.
-- **Social Icons**: Built-in support for `fontawesome5` and `simpleicons` for professional links (Email, GitHub, LinkedIn, etc.).
+- **Modular Design**: Sections are separated into `.tex` files. Includes new sections like `projects.tex` and `earlier-career.tex`.
+- **Publication Support**: Integrated `biblatex` support.
+- **Social Icons**: Built-in support for `fontawesome5` and `simpleicons`.
 - **Photo Inclusion**: Optional profile photo support.
-- **Cross-Engine Compatibility**: Works with pdfLaTeX, XeLaTeX, and LuaLaTeX.
-- **Elegant Styling**: Custom headers, colored section markers, and beautiful typography.
 
 ## Prerequisites
 
-To compile this CV, you will need a LaTeX distribution (like TeX Live, MiKTeX, or MacTeX). The following packages are primarily used:
+You will need a LaTeX distribution.
 
-- `curve` (the base class)
-- `biblatex` (for publications)
-- `fontawesome5` & `simpleicons` (for icons)
-- `geometry` (for margins)
-- `xcolor` & `tikz` (for styling)
+- **Windows Users**: We recommend using [MiKTeX](https://miktex.org/) along with the **TeXworks** editor for easy setup and compilation.
+- Other platforms can use TeX Live or MacTeX.
+
+Packages heavily used: `curve`, `biblatex`, `fontawesome5`, `simpleicons`, `geometry`, `xcolor`, and `tikz`.
 
 ## Usage
 
 ### 1. Customization
 
-- **Main File**: Edit `cv-main.tex` to change your name, contact information, and which sections to include.
-- **Sections**: Update the individual `.tex` files in the root directory:
-  - `profile.tex`
-  - `education.tex`
-  - `employment.tex`
-  - `skills.tex`
-  - `publications.tex`
-  - `misc.tex`
-- **Styling**: Modify `settings.sty` to change colors, fonts, and layout parameters.
+- **Main File**: Edit `cv-main.tex` to update personal info and toggle sections.
+- **Sections**: Update the individual `.tex` files:
+    - `profile.tex`
+    - `education.tex`
+    - `employment.tex` / `earlier-career.tex`
+    - `projects.tex`
+    - `skills.tex`
+    - `publications.tex` / `misc.tex`
+    - `referee-full.tex`
+- **Styling**: Modify `settings.sty`.
 - **Publications**: Add your papers to `own-bib.bib`.
 
 ### 2. Compilation
 
-You can compile the CV using your preferred engine. XeLaTeX or LuaLaTeX is recommended if you want to use specific OpenType fonts.
+XeLaTeX or LuaLaTeX is recommended if using OpenType fonts.
 
 ```bash
 # Using latexmk (recommended)
@@ -50,18 +56,6 @@ biber cv-main
 xelatex cv-main.tex
 ```
 
-## Preview
+## Acknowledgments
 
-[Download/View Generic PDF (main branch)](cv-main.pdf)
-
-[Download/View Personal CV generated PDF (personal branch)](https://github.com/idshdx/latex-cv/blob/personal/cv-main.pdf)
-
-![CV Preview](example.jpeg)
-
-## License
-
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see the [LICENSE](LICENSE) file for details.
-
-### Acknowledgments
-- Inspired by the work of [LianTze Lim](mailto:liantze@gmail.com).
-- Modified and maintained by [Andrei Botez](mailto:andrei@straja.org).
+- Inspired by the work of [LianTze Lim](mailto:liantze@gmail.com)
