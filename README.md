@@ -6,9 +6,9 @@ A clean, modern, and customizable CV template based on the `curve` LaTeX class.
 
 ![CV Preview](example.jpeg)
 
-[Download/View Generic PDF (main branch)](cv-main.pdf)
+[View the generated PDF of another generic example (main branch)](cv-main.pdf)
 
-[Download/View Personal CV generated PDF (personal branch)](https://github.com/idshdx/latex-cv/blob/personal_slim/cv-main.pdf)
+[View my personal CV (personal branch)](https://github.com/idshdx/latex-cv/blob/personal_slim/cv-main.pdf)
 
 ## Features
 
