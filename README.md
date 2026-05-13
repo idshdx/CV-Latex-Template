@@ -8,8 +8,6 @@ A clean, modern, and customizable CV template based on the `curve` LaTeX class.
 
 [View the generated PDF of another generic example (main branch)](cv-main.pdf)
 
-[View my personal CV (personal branch)](https://github.com/idshdx/latex-cv/blob/personal_slim/cv-main.pdf)
-
 ## Features
 
 - **Modular Design**: Sections are separated into `.tex` files. Includes new sections like `projects.tex` and `earlier-career.tex`.
